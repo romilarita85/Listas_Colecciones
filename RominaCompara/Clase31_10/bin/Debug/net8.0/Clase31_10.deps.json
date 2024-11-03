@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Clase31_10/1.0.0": {
+        "dependencies": {
+          "BibliotecaPersonas31_10": "1.0.0"
+        },
+        "runtime": {
+          "Clase31_10.dll": {}
+        }
+      },
+      "BibliotecaPersonas31_10/1.0.0": {
+        "runtime": {
+          "BibliotecaPersonas31_10.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clase31_10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaPersonas31_10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
