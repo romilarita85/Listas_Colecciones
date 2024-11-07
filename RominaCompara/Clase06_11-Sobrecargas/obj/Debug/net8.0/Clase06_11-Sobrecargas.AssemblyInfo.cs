@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Clase30_10-IntroListas")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Clase06_11-Sobrecargas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37a54ffe700b7353b29feb4a6acc08f3ada81af6")]
-[assembly: System.Reflection.AssemblyProductAttribute("Clase30_10-IntroListas")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Clase30_10-IntroListas")]
+[assembly: System.Reflection.AssemblyProductAttribute("Clase06_11-Sobrecargas")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Clase06_11-Sobrecargas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

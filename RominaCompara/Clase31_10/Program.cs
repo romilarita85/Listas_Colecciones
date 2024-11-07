@@ -32,7 +32,7 @@ namespace Clase31_10
 
             //Lo mismo pasa en las properties, para q entren en accion debo invocarlas
             #endregion
-            Persona p1 = new Persona("Jose","Bs As", 22, "64654564");
+            Persona p1 = new Persona("Jose", "Bs As", 22, "64654564");
             Persona p2 = new Persona("Lorena", "Quilmes", 22, "45656564");
             Persona p3 = new Persona("Pedro", "Lomas", 22, "34556666");
             Persona p4 = new Persona("Micaela", "Lomas", 22, "35913898");
@@ -273,25 +273,120 @@ namespace Clase31_10
             //Persona.MostrarPersonas(personas);
             #endregion
             //*********************
-            List<int> num = new List<int>() {13,15,22,87,90,91}; 
+            List<int> num = new List<int>() { 13, 15, 22, 87, 90, 91 };
             num.ForEach(x => Console.WriteLine(x));
             Console.WriteLine("*******************************");
             //Elimina numeros pares usando RemoveAll
-            num.RemoveAll(numero => numero%2 == 0);
+            num.RemoveAll(numero => numero % 2 == 0);
 
-            
+
             num.ForEach(x => Console.WriteLine(x));
 
+            //************************************
+            #region METODO ADD RANGE:
+
+            ////Tengo una lista de personas:
+            //List<Persona> personas1 = new List<Persona>() { p1, p2, p3, p4, p5, p6 };
+            ////tengo otra lista:
+            //Persona personaX = new Persona("Jose", "Bs As", 22, "64654564");
+            ////Agrego una tercer lista del tipo persona:
+            //List<Persona> personas2 = new List<Persona>();//coleccion del tipo listas
+            ////Si quiero agregar la primer lista a mi lista de personas2:
+            //personas2.AddRange(personas1);
+            ////hago q "personas2" me agregue todo lo q tenga en la lista "personas"
+            ////le paso la coleccion de personas
+            ////Se encarga de recorrerlo y hacer la copia de cada una de las posiciones.
+            ////No es un copia de personas1 en personas2
+
+            ////********
+            ////Si tuviera un array del tipo persona(coleccion del tipo array):Lo puedo agregar a la lista
+            //Persona[] personas3 = new Persona[] { p1, p2, p3, p4, p5, p6, personaX };
+
+            //personas2.AddRange(personas1);
+            //personas2.AddRange(personas3);//puedo agregar un array por q tmbien es una coleccion
+
+            ////AddRange siempre q recibe una coleccion la agarra y la puede agregar a la lista.No importa 
+            ////de que tipo sea.
+            #endregion
+
+            //METODO FINDALL:
+            //Devuelve una coleccion de datos q cumplen con el mismo criterio
+            //List<Persona> personas1 = new List<Persona>() {p1,p2,p3,p4,p5,p6 };
+
+            //List<Persona> personasBuscadas = personas1.FindAll(persona => persona.Ciudad == "Lomas");
+            //Creo una lista de personasBuscadas
+            //foreach (Persona item in personasBuscadas)
+            //{
+            //    Console.WriteLine(item.MostrarPersona());
+            //}
+            //**************************************
+            //FindAll internamente hace lo mismo que:
+            //List<Persona> personas1 = new List<Persona>() {p1,p2,p3,p4,p5,p6 };
+            ////creo una lista de personasBuscadas donde guardo lo q estoy buscando
+            //List<Persona> personasBuscadas = new List<Persona>();
+            ////Recorre y encuentra algo y lo voy agregando a la lista de personasBuscadas
+            ////agrega el item q acaba de sacar.
+            //foreach (Persona item in personas1)
+            //{
+            //    personasBuscadas.Add(item);
+            //}
+            //*************************************
+            //*Si le ponemos un criterio especifico:
+            List<Persona> personas1 = new List<Persona>() { p1, p2, p3, p4, p5, p6 };
+
+            List<Persona> personasBuscadas = personas1.FindAll(persona => persona.Ciudad == "Lomas" && persona.Nombre == "Pedro");
+            //Creo una lista de personasBuscadas
+            foreach (Persona item in personasBuscadas)
+            {
+                Console.WriteLine(item.MostrarPersona());
+            }
+            //*Usa un criterio de busqueda para sacar una subcoleccion desde la coleccion principal(respeta los parametros q yo le pase)
+            //**********************************************
+            //For:
+            for (int i = 0; i < personas1.Count; i++)
+            {                             //count para saber largo de la lista 
+                Persona p = personas1[i]; //variable del tipo persona (de una sola persona)
+                                                //personas[i] : nombre de mi coleccion en la posicion de i
+                Console.WriteLine(p.MostrarPersona());
+                //Console.WriteLine(personas1[i].MostrarPersona());
+            }
+            //para acceder a un posicion propia de una persona
+            //Foreach:**********************************
+            foreach (Persona p in personas1)
+            {//bucle q devuelve personas en la posicion 1 , en la posicion 2 etc
+                Console.WriteLine(p.MostrarPersona());
+            }
+            //*Foreach solo sirve para recorrer o consultar valores 
+            //no para manipular o eliminar algo de la lista
+            //**************************************************
+            //ForEach: Es propio de la lista. Viene incorporado en la lista
 
 
+            personas1.ForEach(p => Console.WriteLine(p.MostrarPersona()));
+            //es lo mismo q le pedimos a foreach y al ford de forma interna
 
+            //*******************************************
+            //DICCIONARIO:
+            //Trabaja con un tipo de dato doble. Siempre son dos
+            Dictionary<string, int> miDicc = new Dictionary<string, int>();
+            //tiene una clase unica
+            miDicc.Add("Laura",25);
+            //-Si yo quiero duplicar el dato me genera error-conflicto
+            //miDicc.Add("Laura", 25);
+            //miDicc.Add("Laura", 25);
+            //miDicc.Add("Laura", 25);
+            //En el diccionario las claves deben ser unicas
 
-
-           
-
-
-
-
+            miDicc.Add("Lorena", 25);
+            miDicc.Add("Jose", 25);
+            miDicc.Add("Lomas", 25);
+            //si yo quiero sacar un elemento de mi diccionario de q tipo es el dato q 
+            //esta contenido ->KeyValuePer
+            foreach (KeyValuePair<string,int>dato in miDicc)
+            {
+                Console.WriteLine(dato.Key);
+                Console.WriteLine(dato.Value);
+            }
         }
 
     }

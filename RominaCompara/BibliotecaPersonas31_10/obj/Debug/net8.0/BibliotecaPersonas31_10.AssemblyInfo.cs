@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaPersonas31_10")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37a54ffe700b7353b29feb4a6acc08f3ada81af6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaPersonas31_10")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaPersonas31_10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
