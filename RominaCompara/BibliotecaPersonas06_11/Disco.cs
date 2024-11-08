@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Coleccion de cosas
 namespace BibliotecaPersonas06_11
 {
-    internal class Disco
+    public class Disco
     {
 
         string titulo;
         double duracion;
         string genero;
-
 
         public Disco(string titulo, double duracion, string genero)
         {

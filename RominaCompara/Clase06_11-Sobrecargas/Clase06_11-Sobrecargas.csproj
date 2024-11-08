@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaPersonas06_11\BibliotecaPersonas06_11.csproj" />
+  </ItemGroup>
+
 </Project>
