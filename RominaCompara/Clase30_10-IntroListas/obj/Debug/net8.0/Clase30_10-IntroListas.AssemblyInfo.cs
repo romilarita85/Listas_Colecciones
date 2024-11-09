@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Clase30_10-IntroListas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37a54ffe700b7353b29feb4a6acc08f3ada81af6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18367a73459aa7a731aab749f03c02b4970103eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Clase30_10-IntroListas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Clase30_10-IntroListas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

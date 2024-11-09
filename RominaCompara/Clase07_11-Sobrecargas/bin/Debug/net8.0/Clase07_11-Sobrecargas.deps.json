@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Clase07_11-Sobrecargas/1.0.0": {
+        "dependencies": {
+          "BibliotecaLibro07_11": "1.0.0"
+        },
+        "runtime": {
+          "Clase07_11-Sobrecargas.dll": {}
+        }
+      },
+      "BibliotecaLibro07_11/1.0.0": {
+        "runtime": {
+          "BibliotecaLibro07_11.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clase07_11-Sobrecargas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaLibro07_11/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

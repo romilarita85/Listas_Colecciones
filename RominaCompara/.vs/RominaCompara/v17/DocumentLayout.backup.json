@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92AE86A3-5F98-4816-815E-85311DFA1FAF}|Clase06_11-Sobrecargas\\Clase06_11-Sobrecargas.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\listas_colecciones\\rominacompara\\clase06_11-sobrecargas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92AE86A3-5F98-4816-815E-85311DFA1FAF}|Clase06_11-Sobrecargas\\Clase06_11-Sobrecargas.csproj|solutionrelative:clase06_11-sobrecargas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCC476C3-A761-4A05-AC8C-865921F3632B}|BibliotecaLibro07_11\\BibliotecaLibro07_11.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\listas_colecciones\\rominacompara\\bibliotecalibro07_11\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC476C3-A761-4A05-AC8C-865921F3632B}|BibliotecaLibro07_11\\BibliotecaLibro07_11.csproj|solutionrelative:bibliotecalibro07_11\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F139D60-6A95-4006-9369-12B4C1AFC36A}|BibliotecaPersonas06_11\\BibliotecaPersonas06_11.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\listas_colecciones\\rominacompara\\bibliotecapersonas06_11\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F139D60-6A95-4006-9369-12B4C1AFC36A}|BibliotecaPersonas06_11\\BibliotecaPersonas06_11.csproj|solutionrelative:bibliotecapersonas06_11\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E686614C-2D3B-437F-A859-19D349D1B377}|BibliotecaPersonas31_10\\BibliotecaPersonas31_10.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\listas_colecciones\\rominacompara\\bibliotecapersonas31_10\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E686614C-2D3B-437F-A859-19D349D1B377}|BibliotecaPersonas31_10\\BibliotecaPersonas31_10.csproj|solutionrelative:bibliotecapersonas31_10\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F139D60-6A95-4006-9369-12B4C1AFC36A}|BibliotecaPersonas06_11\\BibliotecaPersonas06_11.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\listas_colecciones\\rominacompara\\bibliotecapersonas06_11\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F139D60-6A95-4006-9369-12B4C1AFC36A}|BibliotecaPersonas06_11\\BibliotecaPersonas06_11.csproj|solutionrelative:bibliotecapersonas06_11\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FACD201-A945-4C86-9812-78D5E7C69617}|Clase07_11-Sobrecargas\\Clase07_11-Sobrecargas.csproj|c:\\users\\pc\\onedrive\\escritorio\\misproyectos\\clasegermanpoo_24\\listas_colecciones\\rominacompara\\clase07_11-sobrecargas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FACD201-A945-4C86-9812-78D5E7C69617}|Clase07_11-Sobrecargas\\Clase07_11-Sobrecargas.csproj|solutionrelative:clase07_11-sobrecargas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\BibliotecaPersonas31_10\\Persona.cs",
-              "RelativeDocumentMoniker": "BibliotecaPersonas31_10\\Persona.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\BibliotecaPersonas31_10\\Persona.cs",
-              "RelativeToolTip": "BibliotecaPersonas31_10\\Persona.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAIwLIAAABJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\BibliotecaLibro07_11\\Libro.cs",
+              "RelativeDocumentMoniker": "BibliotecaLibro07_11\\Libro.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\BibliotecaLibro07_11\\Libro.cs",
+              "RelativeToolTip": "BibliotecaLibro07_11\\Libro.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAQwMMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T00:46:01.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Disco.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\BibliotecaPersonas06_11\\Disco.cs",
-              "RelativeDocumentMoniker": "BibliotecaPersonas06_11\\Disco.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\BibliotecaPersonas06_11\\Disco.cs",
-              "RelativeToolTip": "BibliotecaPersonas06_11\\Disco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:57:29.232Z",
+              "WhenOpened": "2024-11-09T14:01:47.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\BibliotecaPersonas06_11\\Persona.cs",
-              "RelativeDocumentMoniker": "BibliotecaPersonas06_11\\Persona.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\BibliotecaPersonas06_11\\Persona.cs",
-              "RelativeToolTip": "BibliotecaPersonas06_11\\Persona.cs",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAAAO0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:53:31.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\Clase06_11-Sobrecargas\\Program.cs",
-              "RelativeDocumentMoniker": "Clase06_11-Sobrecargas\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\Clase06_11-Sobrecargas\\Program.cs",
-              "RelativeToolTip": "Clase06_11-Sobrecargas\\Program.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAQwFQAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\Clase07_11-Sobrecargas\\Program.cs",
+              "RelativeDocumentMoniker": "Clase07_11-Sobrecargas\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Escritorio\\MisProyectos\\ClaseGermanPoo_24\\Listas_Colecciones\\RominaCompara\\Clase07_11-Sobrecargas\\Program.cs",
+              "RelativeToolTip": "Clase07_11-Sobrecargas\\Program.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAQwMYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T14:52:27.465Z",
+              "WhenOpened": "2024-11-09T13:51:18.801Z",
               "EditorCaption": ""
             }
           ]

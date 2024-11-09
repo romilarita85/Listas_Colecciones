@@ -260,12 +260,16 @@ namespace BibliotecaPersonas06_11
             }
             return resultado;
         }
-
+        //SOBRECARGA DEL OPERADOR + DE LA CLASE PERSONA
+        
+        //1°sobrecarga operador+
+        //Agarrar dos personas y devuelvan a tanta plata entre las dos
         public static double operator +(Persona unaPersona, Persona otraPersona)
         {
             return unaPersona.dinero + otraPersona.dinero;
         }
-
+        //2°sobrecarga operador+
+        //
         public static double operator +(Persona unaPersona, double valor)
         {
             unaPersona.dinero = unaPersona.Dinero + valor;

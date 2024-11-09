@@ -6,7 +6,20 @@ namespace Clase06_11_Sobrecargas
     {
         static void Main(string[] args)
         {
+            ////Creamos personas:
+            //Persona p1 = new Persona("Juan", "CABA", 25, "33333333");
+            //Persona p2 = new Persona("Maria", "CABA", 25, "33333333");
+            //Persona p3 = new Persona("Luis", "Lanus", 28, "444444444");
+            //Persona p4 = new Persona("Carlos", "CABA", 30, "55555555");
+            ////-Instancio y agrego a la lista:
+            //List<Persona> miLista = new List<Persona>();
+            //miLista.Add(p1);
+            //miLista.Add(p2);
+            //miLista.Add(p3);
+            //miLista.Add(p4);
 
+            //Persona.MostrarPersonas(miLista);
+            //**********************************************************************
             //SOBRECARGAS:
             //Posibilidad de usar distintos comportamientos de nuestros metodos
 
@@ -35,7 +48,7 @@ namespace Clase06_11_Sobrecargas
 
             //********************************
             #endregion
-            //*********************************************
+            //*******************************************************************
             #region SOBRECARGA DE METODOS
             //SOBRECARGA DE METODOS: Distintas forma de usar un metodo.
             ////En el main ->Solo voy a ver la llamada de un metodo con el mismo nombre
@@ -69,9 +82,9 @@ namespace Clase06_11_Sobrecargas
             p2.AgregarDinero(35528.99);
             p3.AgregarDinero(10000, 80);//10000 y el 80%
             p4.AgregarDinero(5000);
-            
-
-            //Utilizando SOBRECARGA DE OPERADORES:
+            //*******************************************************************
+            //SOBRECARGA DE OPERADORES:
+            //Utilizando SOBRECARGA DE OPERADORES == !=:
             if (p1 == p2)
             {
                 Console.WriteLine("Son distintos");
@@ -89,7 +102,7 @@ namespace Clase06_11_Sobrecargas
             {
                 Console.WriteLine("Son iguales");
             }
-            Console.WriteLine("pepe" + "luis");
+            Console.WriteLine("pepe" + "luis"); // suma dos cadenas
             
             ////-Instancio y agrego a la lista:
             //List<Persona> miLista = new List<Persona>();
@@ -100,18 +113,23 @@ namespace Clase06_11_Sobrecargas
 
             //Persona.MostrarPersonas(miLista);
             
-
+            //*******************
+            //-Utilizando 1°sobrecarga del operador +:
 
             double total;
-            total = p1 + p2;
+            total = p1 + p2;//sumamos dos personas
 
             Console.WriteLine(total);
-
+            //*si no defino una sobrecarga del operador + cuando trate de sumar dos personas-rompe
+            //por q el operador mas no se puede aplicar a operandos del tipo persona y persona-no sabe sumar dos personas
+            //Con la sobrecarga del operador+ : cuando el operador + de la clase persona reciba dos personas
+           
+            //-Utilizando 2°sobrecarga del operador +:
             double cantidad;
-            cantidad = p3 + 500;
+            cantidad = p3 + 500; //sumamos 1 persona + un 500
             Console.WriteLine(cantidad);
 
-
+           
 
 
         }

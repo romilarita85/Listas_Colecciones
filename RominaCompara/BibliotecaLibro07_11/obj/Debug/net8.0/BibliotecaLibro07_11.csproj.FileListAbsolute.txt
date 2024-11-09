@@ -1,0 +1,12 @@
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\bin\Debug\net8.0\BibliotecaLibro07_11.deps.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\bin\Debug\net8.0\BibliotecaLibro07_11.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\bin\Debug\net8.0\BibliotecaLibro07_11.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\BibliotecaLibro07_11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\BibliotecaLibro07_11.AssemblyInfoInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\BibliotecaLibro07_11.AssemblyInfo.cs
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\BibliotecaLibro07_11.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\BibliotecaLibro07_11.sourcelink.json
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\BibliotecaLibro07_11.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\refint\BibliotecaLibro07_11.dll
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\BibliotecaLibro07_11.pdb
+C:\Users\PC\OneDrive\Escritorio\MisProyectos\ClaseGermanPoo_24\Listas_Colecciones\RominaCompara\BibliotecaLibro07_11\obj\Debug\net8.0\ref\BibliotecaLibro07_11.dll
