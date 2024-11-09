@@ -53,18 +53,34 @@ namespace Clase06_11_Sobrecargas
             //Console.WriteLine(persona1.Dinero);
             //*****************************************
             #endregion
+            //Buscar distintas alternativas,distintas posibilidades,establecer la logica.
 
-
+            //Creamos personas:
             Persona p1 = new Persona("Juan", "CABA", 25, "33333333");
             Persona p2 = new Persona("Maria", "CABA", 25, "33333333");
             Persona p3 = new Persona("Luis", "Lanus", 28, "444444444");
             Persona p4 = new Persona("Carlos", "CABA", 30, "55555555");
 
-            double dinero = p1.AgregarDinero(50000);
-            p2.AgregarDinero(35528.99);
-            p3.AgregarDinero(10000, 80);
-            p4.AgregarDinero(5000);
 
+            //*Antes de agregar a la lista usamos metodo AgregarDinero:
+            //-Atravez de las distintas sobrecargas yo le asigne una cantidad
+            //de dinero a c/una de las personas y luego las agregue a la lista
+            double dinero = p1.AgregarDinero(50000);//50000 + el 10%
+            p2.AgregarDinero(35528.99);
+            p3.AgregarDinero(10000, 80);//10000 y el 80%
+            p4.AgregarDinero(5000);
+            
+
+            //Utilizando SOBRECARGA DE OPERADORES:
+            if (p1 == p2)
+            {
+                Console.WriteLine("Son distintos");
+            }
+            else 
+            {
+                Console.WriteLine("Son iguales");
+            }
+            //*****************************************
             if (p1 != p2)
             {
                 Console.WriteLine("Son distintos");
@@ -74,6 +90,8 @@ namespace Clase06_11_Sobrecargas
                 Console.WriteLine("Son iguales");
             }
             Console.WriteLine("pepe" + "luis");
+            
+            ////-Instancio y agrego a la lista:
             //List<Persona> miLista = new List<Persona>();
             //miLista.Add(p1);
             //miLista.Add(p2);
@@ -81,6 +99,8 @@ namespace Clase06_11_Sobrecargas
             //miLista.Add(p4);
 
             //Persona.MostrarPersonas(miLista);
+            
+
 
             double total;
             total = p1 + p2;

@@ -153,7 +153,7 @@ namespace BibliotecaPersonas06_11
 
             for (int i = 0; i < lista.Count; i++)
             {
-                if (lista[i].nombre == p.nombre && lista[i].Dni == p.Dni)
+                if (lista[i].nombre == p.nombre && lista[i].Dni == p.Dni)//Criterio para identificar q dos personas son iguales
                 {
                     index = i;
                     break;
@@ -165,21 +165,29 @@ namespace BibliotecaPersonas06_11
                 lista.RemoveAt(index);
                 sePudo = true;
             }
-
-
             return sePudo;
-
         }
-        //***************************
-        //SOBRECARGA DE METODOS:
+        //************************************************
+        //SOBRECARGA DE METODOS:(dar distintos comportamientos ante una misma accion)
         //Para sobrecarga de metodos:
         //*El nombre tiene q ser el mismo por q sino pasan a ser dos metodos distintos
+       
         //*Cambiar la cantidad de parametros q recibe
+        
         //*Cambiar los tipos de datos q estoy recibiendo
         //-Voy a tener tantas sobrecargas del mismo metodo como funcionalidades le quiera dar
-        //********************
+        //-Tener en cuenta la firma - no puedo tener dos firmas iguales
+        //intercambiar en una firma dos tipos de datos me genera una firma nueva-> es una firma valida
+        
+        //*La sobrecarga no afecta al tipo de retorno.
+        
+        //*Importa el tipo y la cantidad de los parametros q yo le pase (no se tiene q repetir el tipo de dato q yo le pase)
+        //En cantidad y en tipo de dato puede variar
+        //Los parametros no son significativos- el nombre del parametro no es importante
+        //********************************************************************************************
+        
         //Metodo para agregar dinero:
-        public void AgregarDinero(double cant)
+        public void AgregarDinero(double cant)//funciona como un setter
         {
             this.dinero = cant;
         }
@@ -189,7 +197,6 @@ namespace BibliotecaPersonas06_11
         /// Agrega dinero con un 10% extra
         /// </summary>
         /// <param name="cant"> cantidad de dinero</param>
-        
         public double AgregarDinero(int cant)
         {
             int porcentaje = 10;
@@ -198,32 +205,59 @@ namespace BibliotecaPersonas06_11
 
             return this.dinero;
         }
+        //*****************************************************************
+        //*Si yo quisiera repetir esa sobrecarga con un void me tira error -> es la misma sobrecarga
+        //una devuelve double y otra no devuelve nada
+        //public void AgregarDinero(int cant)
+        //{
+        //    int porcentaje = 10;
 
+        //    this.dinero = cant + cant * porcentaje / 100;
 
+        //    return this.dinero;
+        //}
+        //******************************************************************
         public void AgregarDinero(double cant, int porcentaje)
         {
             this.dinero = cant + cant * porcentaje / 100;
         }
         //-Una sobrecarga es valida si solo si la firma de la sobrecarga es distinta a la firma de otro metodo
         //-Orden de los parametros puede ser distinto
-
-         //SOBRECARGA DE OPERADORES:
+        //********************************************************
+        //SOBRECARGA DE OPERADORES: + - * % > < == !=
+        //Operadores tienen una funcionalidad esta funcionalidad la puedo cambiar(torcer)
+        //para ciertas situaciones algunos operadores van a tener otro comportamiento
+        //Atravez de la sobrecarga de operadores podemos redefinir de q manera el == va a comparar dos objetos
+        //Yo le voy a enseñar cuando dos personas son iguales.
+        //Ejemplo: Dos personas son iguales cuando comparten el mismo nombre, la misma edad y la misma ciudad o nombre y documento
+        //Voy a sobrecargar el operador == de la clase persona
+        //
+        //si modifico el comportamiento del == ->si sobrecargo el operador == estoy obligado a sobrecargar el operador distinto
+       //El operador == requiere que tambien se defina el operador coincidente != (distinto)
         public static bool operator !=(Persona unaPersona, Persona otraPersona)
         {
-            return !(unaPersona == otraPersona);
+            #region REPETICION DE CODIGO
+            //    bool resultado = false;
+            //    //uso if para comparar
+            //    if (unaPersona.nombre != otraPersona.nombre && unaPersona.edad != otraPersona.edad)
+            //    {//quiero q sean iguales si comparten el mismo nombre y la misma edad
+            //        resultado = true;
+            //    }
+            //    return resultado;
+            #endregion
+
+            return !(unaPersona == otraPersona);//-> PARA NO UTILIZAR EL MISMO CODIGO (reutilizacion de codigo)
 
         }
-        
-        
         public static bool operator ==(Persona unaPersona, Persona otraPersona)
         {
+            //LOGICA PARA QUE DOS PERSONAS SE PUEDAN COMPARAR
             bool resultado = false;
-
-            if (unaPersona.nombre == otraPersona.nombre && unaPersona.edad == otraPersona.edad)
-            {
+            //uso if para comparar
+            if (unaPersona.nombre == otraPersona.nombre && unaPersona.edad == otraPersona.edad)  
+            {//quiero q sean iguales si comparten el mismo nombre y la misma edad
                 resultado = true;
             }
-
             return resultado;
         }
 
